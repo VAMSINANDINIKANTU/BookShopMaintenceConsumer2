@@ -3,8 +3,6 @@ package com.bookshopapp.model.entities;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public class Book {
-	//@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	public int id;
 	public String bookName;
