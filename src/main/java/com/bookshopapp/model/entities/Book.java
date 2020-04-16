@@ -43,5 +43,4 @@ public class Book {
 		this.id = i;
 	}
 	
-	
 }
