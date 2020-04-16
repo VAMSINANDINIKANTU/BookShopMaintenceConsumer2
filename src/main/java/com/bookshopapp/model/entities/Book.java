@@ -42,5 +42,4 @@ public class Book {
 	public void setId(int i) {
 		this.id = i;
 	}
-	
 }
