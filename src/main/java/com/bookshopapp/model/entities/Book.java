@@ -1,7 +1,6 @@
 package com.bookshopapp.model.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 public class Book {
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	public int id;
@@ -16,7 +15,6 @@ public class Book {
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
-	
 	public String getPublisherName() {
 		return publisherName;
 	}
@@ -35,7 +33,6 @@ public class Book {
 	public void setPublishingYear(int publishingYear) {
 		this.publishingYear = publishingYear;
 	}
-	
 	public int getId() {
 		return id;
 	}
